@@ -1,3 +1,24 @@
+## 创建 TS 的 React 项目
+
+```
+create-react-app my-app --scripts-version=react-scripts-ts // 已废弃
+// 使用
+
+create-react-app my-app --template typescript
+```
+
+创建了 ts 的 React 项目之后还是会 tsconfig.json 的配置里面的 jsx 选项会报错，在网上查了一下说是 vs code 的 TS 的版本有问题
+
+但是我在项目的根目录下创建了.vscode/settings.json 并且添加了
+
+```
+{
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
+```
+
+但是这个时候还是不能选 TS 的版本，用的依旧是本地的 ts 版本。
+
 # JSX
 
 - 语法
