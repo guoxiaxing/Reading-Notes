@@ -19,6 +19,10 @@ create-react-app my-app --template typescript
 
 但是这个时候还是不能选 TS 的版本，用的依旧是本地的 ts 版本。
 
+**解决本地配置了 sdk 但是 vscode 却无法识别 TS 版本**
+
+前提是需要将配置的这个项目作为 vscode 的直接子项目，vscode 才可以检测版本
+
 # JSX
 
 - 语法
